@@ -191,10 +191,16 @@ ul li a {
     position: relative;
 
 }
-.statistic1 h1 , .statistic2 h1 , .statistic3 h1{
+
+.statistic1 h1,
+.statistic2 h1,
+.statistic3 h1 {
     margin-bottom: 10px;
 }
-.statistic1 p , .statistic2 p , .statistic3 p {
+
+.statistic1 p,
+.statistic2 p,
+.statistic3 p {
     color: #9E9AA8;
     line-height: 28px;
     font-size: 14px;
@@ -234,8 +240,35 @@ ul li a {
     padding: 15px;
     border-radius: 40px;
     position: absolute;
-    top : -35px;
+    top: -35px;
     left: 23px;
-    
+
 
 }
+
+/* Boost Section start*/
+
+#boost {
+    background-color: #3A3054;
+    height: 250px;
+    text-align: center;
+}
+ .boost-content {
+    position: relative;
+    top :57px;
+
+ }
+
+ .boost-content h1{
+    font-size: 35px;
+    color :white;
+    margin-bottom: 42px;
+ }
+ .boost-content button {
+    background-color: #2BD0D0;
+    color: #fff;
+    border-radius: 28px;
+    padding: 14px 40px;
+    font-size: 15px;
+   
+ }
