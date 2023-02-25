@@ -63,7 +63,7 @@ nav {
 
 /* Header css end*/
 
-/* SEctin 1 start*/
+/* Link Section 1 start*/
 #link {
     width: 100%;
     height: 650px;
@@ -126,7 +126,7 @@ nav {
 
 ::placeholder {
     padding: 14px 36px;
-    color: #34313D;
+    color:#9E9AA8;
 }
 
 .link-add button {
@@ -140,6 +140,8 @@ nav {
 
 /*Section 1 End*/
 
+/*Section advanced start*/
+
 #advanced-statistic {
     background-color: #F2F2F2;
     width: 100%;
@@ -149,6 +151,9 @@ nav {
     align-items: center;
 }
 
+.advanced {
+    position: relative;
+}
 
 .statistic-content {
     text-align: center;
@@ -245,6 +250,7 @@ nav {
 
 
 }
+/*Section advanced end*/
 
 /* Boost Section start*/
 
@@ -253,65 +259,75 @@ nav {
     height: 250px;
     text-align: center;
 }
- .boost-content {
+
+.boost-content {
     position: relative;
-    top :57px;
+    top: 57px;
 
- }
+}
 
- .boost-content h1{
+.boost-content h1 {
     font-size: 35px;
-    color :white;
+    color: white;
     margin-bottom: 42px;
- }
- .boost-content button {
+}
+
+.boost-content button {
     background-color: #2BD0D0;
     color: #fff;
     border-radius: 28px;
     padding: 14px 40px;
     font-size: 15px;
-   
- }
 
- #Footer {
+}
+/*Boost Section end*/
+
+/* Footer start*/
+
+#Footer {
     height: 310px;
     background-color: #232127;
     display: flex;
     justify-content: space-around;
- } 
-  .footer-left {
+}
+
+.footer-left {
     color: white;
     margin-top: 72px;
     margin-left: 70px;
-  }
+}
 
- .footer-center   {
-  display: flex;
-  margin-top: 42px;
-  margin-left: 180px;
- }
- ul{
+.footer-center {
+    display: flex;
+    margin-top: 42px;
+    margin-left: 180px;
+}
+
+ul {
 
     list-style: none;
 
- }
+}
 
- .features-list , .resources-list, .company-list {
+.features-list,
+.resources-list,
+.company-list {
     margin: 45px;
 
 }
 
-.footer-center p{
-color: white;
-font-size: 14px;
-margin-bottom: 22px;
+.footer-center p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 22px;
 }
 
-.footer-center ul  li a {
+.footer-center ul li a {
     color: #BFBFBF;
     line-height: 40px;
     font-size: 15px;
 }
+
 .footer-right {
     margin-top: 73px;
     margin-right: 45px;
@@ -325,7 +341,32 @@ margin-bottom: 22px;
     margin: 20px;
 }
 
+.line {
 
+    height: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-left: 45px;
+    margin-right: 45px;
+    left: 0;
+    right: 0;
+    top: 370px;
+}
 
+.line-green1,
+.line-green2 {
+    height: 8px;
+    width: 60px;
+    background-color: #2BD0D0;
 
- 
+}
+
+.line-green1 {
+    margin-left: 160px;
+}
+
+.line-green2 {
+    margin-right: 160px;
+}
