@@ -126,7 +126,7 @@ ul li a {
 
 ::placeholder {
     padding: 14px 36px;
-    color:#34313D;
+    color: #34313D;
 }
 
 .link-add button {
@@ -143,5 +143,99 @@ ul li a {
 #advanced-statistic {
     background-color: #F2F2F2;
     width: 100%;
-    height: 450px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.statistic-content {
+    text-align: center;
+    width: 450px;
+    margin-left: 350px;
+}
+
+.statistic-content h1 {
+    color: #34313D;
+    text-transform: capitalize;
+    font-size: 35px;
+
+}
+
+.statistic-content p {
+    text-align: center;
+    margin-top: 18px;
+    color: #9E9AA8;
+    font-size: 15px;
+}
+
+.statistics {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+
+}
+
+.statistic1 {
+    width: 350px;
+    height: 267px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 15px;
+    padding: 77px 32px;
+    position: relative;
+
+}
+.statistic1 h1 , .statistic2 h1 , .statistic3 h1{
+    margin-bottom: 10px;
+}
+.statistic1 p , .statistic2 p , .statistic3 p {
+    color: #9E9AA8;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.statistic2 {
+    width: 350px;
+    height: 267px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 15px;
+    padding: 77px 32px;
+
+    position: relative;
+    top: 35px;
+    position: relative;
+
+
+}
+
+.statistic3 {
+    width: 350px;
+    height: 267px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 15px;
+    padding: 77px 32px;
+
+    position: relative;
+    top: 65px;
+    position: relative;
+
+}
+
+.stat-item {
+    background-color: #3A3054;
+    padding: 15px;
+    border-radius: 40px;
+    position: absolute;
+    top : -35px;
+    left: 23px;
+    
+
 }
